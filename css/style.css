@@ -18,3 +18,11 @@ header {
     text-decoration: none;
 }
 
+.headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../img/pen_desk.jpg);
+}
+
