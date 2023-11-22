@@ -2,9 +2,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#grid-container {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+}
+
 header {
+    grid-area: header;
     background-color: #fff;
     padding: 1rem;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
 }
 
 #header_align {
@@ -16,13 +30,80 @@ header {
 .navbar {
     list-style: none;
     text-decoration: none;
+    padding: 0;
+}
+
+header nav ul li {
+    padding: 0.8rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.button-color {
+    background-color: #e6bd43;
+}
+
+#font-link {
+    display: flex;
+    font-size: 1.2rem;
+    color: #000;
+    padding: 0.8rem;
+    text-decoration: none;
+}
+
+.p-size {
+    color: #000;
+    font-size: 1.2rem;
 }
 
 .headline {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    background-image: url(../img/pen_desk.jpg);
+    background-image: url(../img/pen_desk_v2.jpg);
 }
 
+.subheading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.about-heading {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-color: #e6bd43;
+}
+
+.about-heading img {
+    width: 100%;
+    padding: 0 0 3rem 0;
+}
+
+.narrow {
+    padding: 0 2rem 0 2rem;
+}
+
+#header-custom {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+
+#hoved-overskrift {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 800;
+}
