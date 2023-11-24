@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     max-width: 1600px;
 }
@@ -75,6 +83,27 @@ header nav ul li a {
     background-size: cover;
 }
 
+.headline-about {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../img/pen_desk_v3.jpg);
+    background-size: cover;
+}
+
+#color-box {
+    padding: 2rem;
+    background: rgba(244, 246, 246, 0.8)
+}
+
+#color-box h2 {
+    font-size: 1,2rem;
+    font-weight: 900;
+}
+
 .subheading {
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +126,12 @@ header nav ul li a {
 .subheading-portfolio h2 {
     padding: 1rem;
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 900;
+    min-width: 100%;
+    border-bottom: solid;
+    border-width: 5px;
+    border-bottom-width: 100%;
+    border-bottom-color: #e6bd43;
 }
 
 .subheading-portfolio article {
@@ -113,7 +147,7 @@ header nav ul li a {
 }
 
 .subheading article h3 {
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .subheading article {
@@ -141,19 +175,19 @@ header nav ul li a {
 #header-custom {
     display: flex;
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 #hoved-overskrift {
     display: flex;
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 #hoved-overskrift-portfolio {
     display: flex;
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 900;
     padding: 100px 0 100px 0;
 }
 
@@ -219,7 +253,7 @@ header nav ul li a {
     text-decoration: none;
     color: #000;
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 900;
     padding: 1rem;
     border-style: solid;
     border-width: 3.5px;
@@ -231,7 +265,7 @@ header nav ul li a {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
     background-color: #fff;
 }
 
@@ -242,12 +276,38 @@ header nav ul li a {
 .artikkel-kort article figure figcaption {
     padding: 1rem 0 1rem 0;
     font-size: 1.2rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 .artikkel-kort h3 {
-    align-self: baseline;
-    padding: 0 0 2rem 3rem;
-    font-size: 1.4rem;
-    font-weight: 800;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    min-width: 100%;
+    border-bottom: solid;
+    border-width: 5px;
+    border-bottom-width: 100%;
+    border-bottom-color: #e6bd43;
 }
+
+.client {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem 0 3rem 0;
+}
+
+#text-align-client {
+    display: flex;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    justify-content: center;
+    padding: 3rem 0 0 0;
+}
+
+.client-background {
+    background-color: #e6bd43;
+}
+
