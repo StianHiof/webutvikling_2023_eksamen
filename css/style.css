@@ -198,7 +198,7 @@ header nav ul li a {
     justify-content: center;
     align-items: center;
     padding: 3rem 1rem 3rem 1rem;
-    background-color: lightgray;
+    background-color: rgb(241, 237, 237);
 }
 
 #sign-up form {
@@ -311,3 +311,79 @@ header nav ul li a {
     background-color: #e6bd43;
 }
 
+#contact-us {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(241, 237, 237);
+}
+
+#contact-us article form label {
+    display: flex;
+    padding: 1rem 0 0.35rem 0;
+}
+
+#contact-us article form input {
+    padding: 1rem;
+    width: 100%;
+}
+
+#contact-us h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#send-message {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+#contact-us article form textarea {
+    margin: 0 0 2rem 0;
+}
+
+#contact-us article form a {
+    padding: 1rem;
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2rem;
+    align-items: baseline;
+    background-color: rgb(241, 237, 237);
+}
+
+.contact-align {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+
+.contact-align i {
+    padding: 0 1.5rem 0 0;
+}
+
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
