@@ -20,7 +20,7 @@ body {
 header {
     grid-area: header;
     background-color: #fff;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 main {
@@ -202,7 +202,7 @@ header nav ul li a {
 #sign-up {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 3rem 1rem 3rem 1rem;
@@ -322,7 +322,6 @@ header nav ul li a {
 #contact-us {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     padding: 2rem;
     background-color: rgb(241, 237, 237);
@@ -335,7 +334,7 @@ header nav ul li a {
 
 #contact-us article form input {
     padding: 1rem;
-    width: 100%;
+    width: 305px;
 }
 
 #contact-us h3 {
