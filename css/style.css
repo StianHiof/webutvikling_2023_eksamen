@@ -395,3 +395,38 @@ header nav ul li a {
     top: 0;
     position: absolute;
 }
+
+.home {
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #e6bd43;
+}
+
+.port {
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #e6bd43;
+}
+
+.about {
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #e6bd43;
+}
+
+#arrow-up i {
+    scale: 2;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    border-radius: 7.5px;
+    position: fixed;
+    padding: 0.3rem;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+
