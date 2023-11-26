@@ -92,6 +92,17 @@ header nav ul li a {
     background-size: cover;
 }
 
+.headline_port {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    background-image: url(../img/pen_desk_v5.jpg);
+    background-size: cover;
+}
+
 #video {
     display: none;
 }
@@ -520,6 +531,26 @@ header nav ul li a {
     .subheading h2 {
         font-size: 2rem;
     }
+
+    .about-heading {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .narrow {
+        max-width: 70%;
+    }
+
+    .about-heading article img {
+        width: 100%;
+    }
+
+    #read-more-about-us {
+        max-width: 225px;
+    }
+
 
 
 
