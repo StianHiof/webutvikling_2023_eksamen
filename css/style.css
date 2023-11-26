@@ -138,6 +138,22 @@ header nav ul li a {
     background-color: #fff;
 }
 
+.subheading_services {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+#services_header {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
 .subheading-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -166,15 +182,15 @@ header nav ul li a {
 }   
 
 
-.subheading i {
+.subheading_services i {
     scale: 1.75;
 }
 
-.subheading article h3 {
+.subheading_services article h3 {
     font-weight: 900;
 }
 
-.subheading article {
+.subheading_services article {
     padding: 1.7rem;
 }
 
@@ -200,6 +216,7 @@ header nav ul li a {
     display: flex;
     font-size: 1.3rem;
     font-weight: 900;
+    padding: 0;
 }
 
 #hoved-overskrift {
@@ -550,6 +567,38 @@ header nav ul li a {
     #read-more-about-us {
         max-width: 225px;
     }
+
+    .subheading_services {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }
+
+    .subheading_services article p {
+        flex-wrap: wrap;
+        display: inline-flex;
+    }
+
+    #services_header {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    #sign-up h3 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    
+
+
 
 
 
