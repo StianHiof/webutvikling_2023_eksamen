@@ -429,3 +429,56 @@ header nav ul li a {
 }
 
 
+@media only screen and (min-width: 630px) {
+    #grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "header header header" "main main main" "footer footer footer";
+    }
+
+    header {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    main {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    footer {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    #header_align {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #header_align article a img {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        padding-right: 1rem;
+    }
+
+    
+
+
+
+
+
+}
