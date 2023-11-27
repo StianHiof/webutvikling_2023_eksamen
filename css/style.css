@@ -352,7 +352,7 @@ header nav ul li a {
     background-color: #e6bd43;
 }
 
-#contact-us {
+.contact-us {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -360,17 +360,25 @@ header nav ul li a {
     background-color: rgb(241, 237, 237);
 }
 
-#contact-us article form label {
+.contact-us-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+    background-color: rgb(241, 237, 237);
+}
+
+.contact-us article form label {
     display: flex;
     padding: 1rem 0 0.35rem 0;
 }
 
-#contact-us article form input {
+.contact-us article form input {
     padding: 1rem;
     width: 305px;
 }
 
-#contact-us h3 {
+.contact-us h3 {
     font-size: 1.5rem;
     font-weight: 900;
 }
@@ -380,11 +388,11 @@ header nav ul li a {
     font-weight: 900;
 }
 
-#contact-us article form textarea {
+.contact-us article form textarea {
     margin: 0 0 2rem 0;
 }
 
-#contact-us article form a {
+.contact-us article form a {
     padding: 1rem;
     background-color: #e6bd43;
     color: #000;
@@ -392,7 +400,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-#information {
+.information {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -541,8 +549,9 @@ header nav ul li a {
     }
 
     .subheading {
-        padding-right: 12rem;
-        padding-left: 12rem;
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-bottom: 5rem;
     }
 
     .subheading h2 {
@@ -633,6 +642,46 @@ header nav ul li a {
         display: flex;
         padding-left: 50%;
     }
+
+    .client {
+        justify-content: center;
+        padding-top: 0;
+    }
+
+    .client article {
+        padding: 1rem;
+    }
+
+    #text-align-client {
+        font-size: 2.5rem;
+    }
+
+    .contact-us {
+        float: left;
+        padding-left: 8rem;
+    }
+
+    .contact-us article form a {
+        display: flex;
+        align-self: first baseline;
+        width: 150px;
+    }
+
+    .google-map {
+        padding-bottom: 20%;
+    }
+
+    .information {
+        padding-bottom: 360px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .contact-us-header h3 {
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+
 
 
 
