@@ -423,7 +423,7 @@ header nav ul li a {
 }
 
 .google-map {
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     position: relative;
 }
 
@@ -663,8 +663,9 @@ header nav ul li a {
     }
 
     .contact-us {
-        float: left;
-        padding-left: 8rem;
+        display: flex;
+        align-items: first baseline;
+        padding-left: 3rem;
     }
 
     .contact-us article form a {
@@ -675,10 +676,19 @@ header nav ul li a {
 
     .google-map {
         padding-bottom: 20%;
+        position: relative;
+    }
+
+    .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
     }
 
     .information {
-        padding-bottom: 360px;
+        padding-bottom: 100px;
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -724,7 +734,12 @@ header nav ul li a {
 
     .flex-grow:hover {
         scale: 1.1;
-        transition: 1s ease;
+        transition: 1s ease-in-out;
+    }
+
+    .final_align {
+        display: flex;
+        flex-direction: row;
     }
 
 
