@@ -516,7 +516,7 @@ header nav ul li a {
         text-align: center;
         flex-direction: column;
         align-items: center;
-        padding: 3rem;
+        padding: 3rem 3rem 1.5rem 3rem;
         padding-left: 8rem;
         padding-right: 8rem;
         background-size: cover;
@@ -595,6 +595,47 @@ header nav ul li a {
         flex-direction: row;
         justify-content: space-between;
     }
+
+    #hoved-overskrift {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    #hoved-overskrift-portfolio {
+        font-size: 3.5rem;
+    }
+
+    .subheading-portfolio {
+        justify-content: left;
+    }
+
+    .subheading-portfolio h2 {
+        font-size: 2rem;
+    }
+
+    .artikkel-kort {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: baseline;
+        padding: 1rem;
+    }
+
+    .artikkel-kort h3 {
+        font-size: 2rem;
+    }
+
+    #flex-grow {
+        flex-grow: 0.3;
+    }
+
+    .headline-about {
+        display: flex;
+        padding-left: 50%;
+    }
+
+
+
 
 
 
