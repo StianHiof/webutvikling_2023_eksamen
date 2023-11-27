@@ -422,7 +422,6 @@ header nav ul li a {
     padding: 0 1.5rem 0 0;
 }
 
-
 .google-map {
     padding-bottom: 50%;
     position: relative;
@@ -630,13 +629,20 @@ header nav ul li a {
         padding: 1rem;
     }
 
+
+    .min-max figure img {
+        max-width: 350px;
+    }
+
     .artikkel-kort h3 {
         font-size: 2rem;
     }
 
-    #flex-grow {
-        flex-grow: 0.3;
+    .flex-grow {
+        flex-grow: 0.2;
+        max-width: 692px;
     }
+
 
     .headline-about {
         display: flex;
@@ -681,6 +687,56 @@ header nav ul li a {
         font-size: 2.2rem;
         font-weight: 900;
     }
+
+    .button-color:hover {
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    .button-color a:hover {
+        color: #e6bd43;
+    }
+
+    .port-button:hover {
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    .contact-us article form a:hover {
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #read-more-about-us:hover {
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #font-link:hover {
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    .min-max:hover {
+        scale: 1.1;
+        transition: 1s ease;
+    }
+
+    .flex-grow:hover {
+        scale: 1.1;
+        transition: 1s ease;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
