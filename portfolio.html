@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="design, development, branding">
+        <meta name="description" content="Innovative solutions for your needs">
+        <!--Facebook annonsiering-->
+        <meta property="og:title" content="Our recent worksflow">
+        <meta property="og:description" content="What have we done for our clients">
+        <meta property="og:type" content="Service">
+        <meta property="og:image" content="https://placehold.co/400">
+        <meta property="og:url" content="#">
+        <!--Facebook annonsiering slutt-->
         <link href="assets/fonts/css/fontawesome.css" rel="stylesheet">
         <link href="assets/fonts/css/brands.css" rel="stylesheet">
         <link href="assets/fonts/css/solid.css" rel="stylesheet">
@@ -18,106 +27,115 @@
                     </article>
                     <nav>
                         <ul class="navbar">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html" class="port">Portfolio</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li class="button-color"><a href="about.html#contact-us"><strong>Contact</strong></a></li>
+                            <li><a href="index.html" aria-label="Link Front-page">Home</a></li>
+                            <li><a href="portfolio.html" class="port" aria-label="Link Portfolio">Portfolio</a></li>
+                            <li><a href="about.html" aria-label="Link About Us">About</a></li>
+                            <li class="button-color"><a href="about.html#contact-us" aria-label="Link Contact"><strong>Contact</strong></a></li>
                         </ul>
                     </nav>
                 </section>
             </header>
-            <main>
+            <main itemscope itemtype="https://schema.org/CreativeWork">
                 <section class="headline_port">
-                    <h1 id="hoved-overskrift-portfolio">Portfolio</h1>
+                    <h1 id="hoved-overskrift-portfolio" itemprop="name">Portfolio</h1>
                 </section>
                 <section class="subheading-portfolio">
                     <h2>Explore previous jobs</h2>
                     <article>
-                            <a href="#branding" class="port-button">Branding</a>
+                            <a href="#branding" class="port-button" aria-label="Link to branding section">Branding</a>
                     </article>
                     <article>
-                            <a href="#design" class="port-button">Design</a>
+                            <a href="#design" class="port-button" aria-label="Link to design section">Design</a>
                     </article>
                     <article>
-                            <a href="#development" class="port-button">Development</a>
+                            <a href="#development" class="port-button" aria-label="Link to development section">Development</a>
                     </article>
                 </section>
                 <section id="branding" class="artikkel-kort">
-                    <h3>Branding</h3>
+                    <h3 title="Our brand is growing to be the best in the biz" itemprop="name">Branding</h3>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Branding job 1">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Branding job 2">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Branding job 3">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="flex-grow">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Branding job 4">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                 </section>
                 <section id="design" class="artikkel-kort">
-                    <h3>Design</h3>
+                    <h3 title="Innovative design - ALWAYS!" itemprop="name">Design</h3>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Design job 1">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Design job 2">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="min-max">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Design job 3">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                 </section>
                 <section id="development" class="artikkel-kort">
-                    <h3>Development</h3>
+                    <h3 title="We make you - who you want to be" itemprop="name">Development</h3>
                     <article class="flex-grow">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Development job 1">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
                     </article>
                     <article class="flex-grow">
                         <figure>
-                            <img src="https://placehold.co/400" alt="Artikkelbilde">
-                            <figcaption>
+                            <!--Alt tagg er basert på tidligere jobb-->
+                            <img src="https://placehold.co/400" alt="Development job 2">
+                            <figcaption itempro="audience">
                                 Et harum quidem
                             </figcaption>
                         </figure>
@@ -131,9 +149,9 @@
                         Companyrights Comapnyname 2023
                     </p>
                     <article>
-                        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-                        <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                        <a href="https://www.facebook.com" role="link"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/" role="link"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                        <a href="https://no.linkedin.com/" role="link"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
                     </article>
                 </section>
                 <div id="arrow-up">

@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="design, development, branding">
+        <meta name="description" content="Innovative solutions for your needs">
+        <!--Facebook annonsiering-->
+        <meta property="og:title" content="About us and our capabilities">
+        <meta property="og:description" content="Who are we, what do we do?">
+        <meta property="og:type" content="Service">
+        <meta property="og:image" content="https://placehold.co/400">
+        <meta property="og:url" content="#">
+        <!--Facebook annonsiering slutt-->
         <link href="assets/fonts/css/fontawesome.css" rel="stylesheet">
         <link href="assets/fonts/css/brands.css" rel="stylesheet">
         <link href="assets/fonts/css/solid.css" rel="stylesheet">
@@ -14,19 +23,19 @@
             <header>
                 <section id="header_align">
                     <article>
-                        <a href="index.html"><img src="img/logo1.png" alt="logo-footer"></a>
+                        <a href="index.html"><img src="img/logo1.png" alt="logo-header"></a>
                     </article>
                     <nav>
                         <ul class="navbar">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="about.html" class="about">About</a></li>
-                            <li class="button-color"><a href="about.html#contact-us"><strong>Contact</strong></a></li>
+                            <li><a href="index.html" aria-label="Link Front-page">Home</a></li>
+                            <li><a href="portfolio.html" aria-label="Link Portfolio">Portfolio</a></li>
+                            <li><a href="about.html" class="about" aria-label="Link About Us">About</a></li>
+                            <li class="button-color"><a href="about.html#contact-us" aria-label="Link Contact"><strong>Contact</strong></a></li>
                         </ul>
                     </nav>
                 </section>
             </header>
-            <main>
+            <main itemscope itemtype="https://schema.org/ContactPoint">
                 <section class="headline-about">
                     <article id="color-box">
                         <p><strong>Company name</strong></p>
@@ -38,7 +47,7 @@
                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
                             culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <a href="#contact-us" class="button-color" id="font-link"><strong>Get in touch with us</strong></a>
+                        <a href="#contact-us" class="button-color" id="font-link" aria-label="Link to contact section"><strong>Get in touch with us</strong></a>
                     </article>
                 </section>
                 <section id="services_header">
@@ -76,7 +85,7 @@
                 </section>
                 <section class="client-background">
                     <section>
-                        <h4 id="text-align-client">Some of our clients</h4>
+                        <h4 id="text-align-client" title="Our clients is the best of it's field">Some of our clients</h4>
                     </section>
                     <section class="client">
                         <article>
@@ -91,7 +100,7 @@
                     </section>
                 </section>
                 <section class="contact-us-header">
-                    <h3>Contact us</h3>
+                    <h3 itemprop="name">Contact us</h3>
                 </section>
                 <section class="final_align">
                     <section class="contact-us" id="contact-us">
@@ -104,7 +113,7 @@
                                 <input type="text" id="subject" value="Branding"><br><br>
                                 <p><strong>Message</strong></p>
                                 <textarea name="message" cols="39" rows="10"></textarea>
-                                <a href="about.html">Send message</a>
+                                <a href="about.html" aria-label="Send message">Send message</a>
                             </form>
                         </article>
                     </section>
@@ -123,11 +132,11 @@
                         </article>
                         <article class="contact-align">
                             <i class="fa-solid fa-phone" style="color: #454c59;"></i>
-                            <p>69 60 80 00</p>
+                            <p itemprop="telephone">69 60 80 00</p>
                         </article>
                         <article class="contact-align">
                             <i class="fa-solid fa-envelope" style="color: #454c59;"></i>
-                            <a href="mailto:postmottak@hiof.no">postmottak@hiof.no</a>
+                            <a href="mailto:postmottak@hiof.no" itemprop="email">postmottak@hiof.no</a>
                         </article>
                     </section>
                 </section>
@@ -142,9 +151,9 @@
                         Companyrights Comapnyname 2023
                     </p>
                     <article>
-                        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-                        <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                        <a href="https://www.facebook.com" role="link"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/" role="link"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                        <a href="https://no.linkedin.com/" role="link"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
                     </article>
                 </section>
                 <div id="arrow-up">

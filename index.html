@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html lang="nb">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="design, development, branding">
+        <meta name="description" content="Innovative solutions for your needs">
+        <!--Facebook annonsiering-->
+        <meta property="og:title" content="Do you need help with your business? Chech out what we can do">
+        <meta property="og:description" content="Custom solutions that will make your business grow">
+        <meta property="og:type" content="Service">
+        <meta property="og:image" content="https://cdn.pixabay.com/photo/2019/07/14/16/27/pen-4337521_1280.jpg">
+        <meta property="og:url" content="#">
+        <!--Facebook annonsiering slutt-->
         <link href="assets/fonts/css/fontawesome.css" rel="stylesheet">
         <link href="assets/fonts/css/brands.css" rel="stylesheet">
         <link href="assets/fonts/css/solid.css" rel="stylesheet">
@@ -14,14 +23,15 @@
             <header id="top">
                 <section id="header_align">
                     <article>
-                        <a href="index.html"><img src="img/logo1.png" alt="logo-footer"></a>
+                        <!--Alt tagg blir logo header, grunnet firma logo og plassering-->
+                        <a href="index.html"><img src="img/logo1.png" alt="logo-header"></a>
                     </article>
                     <nav>
                         <ul class="navbar">
-                            <li><a href="index.html" class="home">Home</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li class="button-color"><a href="about.html#contact-us"><strong>Contact</strong></a></li>
+                            <li><a href="index.html" class="home" aria-label="Link Front-page">Home</a></li>
+                            <li><a href="portfolio.html" aria-label="Link Portfolio">Portfolio</a></li>
+                            <li><a href="about.html" aria-label="Link About Us">About</a></li>
+                            <li class="button-color"><a href="about.html#contact-us" aria-label="Link Contact"><strong>Contact</strong></a></li>
                         </ul>
                     </nav>
                 </section>
@@ -41,11 +51,11 @@
                     </article>
                 </section>
             </header>
-            <main>
+            <main itemscope itemtype="https://schema.org/Service">
                 <section class="subheading">
-                    <h2>Engaging subheading. What can you help your visitors with</h2>
+                    <h2 title="Any questions, check out About page">Engaging subheading. What can you help your visitors with</h2>
                     <article>
-                        <p class="p-size">
+                        <p class="p-size" itemprop="audience">
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident
                             exercitation ullamco laboris
                         </p>
@@ -53,18 +63,19 @@
                 </section>
                 <section class="about-heading">
                     <article>
-                        <img src="https://placehold.co/400" alt="400x400 pic">
+                        <!--Alt tagg blir About company, grunnet tema-->
+                        <img src="https://placehold.co/400" alt="About company">
                     </article>
                     <article class="narrow">
                         <h3 class="narrow" id="header-custom">About Our Company</h3>
                         <p class="p-size" id="text_about">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                        <a href="about.html" class="button-color" id="read-more-about-us">Read more about us</a>
+                        <a href="about.html" class="button-color" id="read-more-about-us" aria-label="Link to About page" itemprop="url">Read more about us</a>
                     </article>
                 </section>
                 <section id="services_header">
-                    <h2>Our services</h2>
+                    <h2 title="Check out Portfolio page for more information" itemprop="name">Our services</h2>
                 </section>
                 <section class="subheading_services" id="link-services">
                     <article>
@@ -107,14 +118,15 @@
             </main>
             <footer>
                 <section class="footer">
+                    <!--Alt tagg blir logo footer, grunnet firma logo og plassering-->
                     <a href="index.html"><img src="img/logo1.png" alt="logo-footer"></a>
                     <p>
                         Companyrights Comapnyname 2023
                     </p>
                     <article>
-                        <a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-                        <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                        <a href="https://www.facebook.com" role="link"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+                        <a href="https://www.instagram.com/" role="link"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                        <a href="https://no.linkedin.com/" role="link"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
                     </article>
                 </section>
                 <div id="arrow-up">
